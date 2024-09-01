@@ -41,16 +41,30 @@ const Home = () => {
                 href="/top-rated-movies"
                 style={{ textDecoration: "none", color: "#7d4860" }}
               >
-                Top Rated World Wide Movies
+                Top Rated World Wide Movies.
               </a>
-              .
             </li>
             <br />
             <li>
-              Search movies that will be coming soon to your nearby Theaters.
+              Search movies that will be{" "}
+              <a
+                className="me-2"
+                href="/movies-coming"
+                style={{ textDecoration: "none", color: "#7d4860" }}
+              >
+                Coming Soon,
+              </a> 
+              to your nearby Theaters.
             </li>
             <br />
-            <li>Add your favorite movies in the favorite Movies List.</li>
+            <li>Add your favorite movies in the{" "}
+              <a
+                className="me-2"
+                href="/favourite"
+                style={{ textDecoration: "none", color: "#7d4860" }}
+              >
+                Favourites,
+              </a>  Movies List.</li>
           </ul>{" "}
           <br />
           <p>
